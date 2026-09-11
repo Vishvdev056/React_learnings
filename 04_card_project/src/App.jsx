@@ -124,7 +124,7 @@ console.log(jobOpenings)
        {jobOpenings.map(function(elem,idx){
           console.log(idx)
         return <div key={idx}>
-          <Card company={elem.companyName}
+        <Card company={elem.companyName}
         datePosted={elem.datePosted}
         brandLogo={elem.brandLogo}
         post={elem.post}
