@@ -1,6 +1,14 @@
-import React from 'react'
+import React, { use } from 'react'
 
 const App = () => {
+
+  function getData(){
+    console.log("Data aa gaya")
+  }
+
+  console.log(user)
+
+ 
   return (
     <div>
       app
